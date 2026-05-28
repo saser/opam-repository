@@ -11,7 +11,7 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "ocaml"                   {>= "5.1.0"}
+  "oxcaml"                   {>= "5.1.0"}
   "basement"                {= "v0.18~preview.130.91+190"}
   "capsule0"                {= "v0.18~preview.130.91+190"}
   "ocaml_intrinsics_kernel" {= "v0.18~preview.130.91+190"}
